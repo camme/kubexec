@@ -1,5 +1,6 @@
 # kubexec
-A super small bash command to bash exec into a kubernetes pod without the complete name
+A super small bash command to bash exec into a kubernetes pod without the complete name.
+Think of it like [stern](https://github.com/wercker/stern) but for executing into a container (and much, much more basic, just two lines of bash code).
 
 ## How to install
 ```bash
