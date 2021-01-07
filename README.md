@@ -4,7 +4,7 @@ Think of it like [stern](https://github.com/wercker/stern) but for executing int
 
 ## How to install
 ```bash
-sudo wget https://github.com/camme/kubexec/releases/download/v0.1.0/kubexec -O /usr/local/bin/kubexec
+sudo wget https://github.com/camme/kubexec/releases/download/v0.2.0/kubexec -O /usr/local/bin/kubexec
 sudo chmod +x /usr/local/bin/kubexec
 ```
 
@@ -20,4 +20,10 @@ kubexec frontend-dra
 kubexec frontend 
 # or
 kubexec draft-sje
+```
+
+If you need to run it with something else than ```bash```:
+
+```bash
+kubexec frontend sh
 ```
